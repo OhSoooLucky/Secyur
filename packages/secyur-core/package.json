@@ -1,0 +1,25 @@
+{
+  "name": "@ohsooolucky/secyur-core",
+  "version": "0.0.1",
+  "description": "Core application for the secyur e-mail validation platform",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "email": "lucky@wheezie.be",
+    "name": "ohsooolucky",
+    "url": "https://dev.wheezie.be"
+  },
+  "repository": {
+    "directory": "src/secyur-core",
+    "type": "git",
+    "url": "git+https://github.com/ohsooolucky/secyur.git"
+  },
+  "license": "GPLV3",
+  "type": "module",
+  "directories": {
+    "test": "test/"
+  }
+}
