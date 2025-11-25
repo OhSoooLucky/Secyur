@@ -1,0 +1,27 @@
+{
+  "name": "@ohsooolucky/secyur-test",
+  "version": "0.0.1",
+  "description": "Test application for the secyur platform",
+  "main": "index.js",
+  "author": {
+    "email": "lucky@wheezie.be",
+    "name": "ohsooolucky",
+    "url": "https://dev.wheezie.be"
+  },
+  "repository": {
+    "directory": "src/",
+    "type": "git",
+    "url": "git+https://github.com/ohsooolucky/secyur.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "GPLV3",
+  "type": "module",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "@ohsooolucky/secyur-core": "workspace:*",
+    "@ohsooolucky/secyur-db-postgres": "workspace:^"
+  }
+}
