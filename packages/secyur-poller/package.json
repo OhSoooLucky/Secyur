@@ -1,0 +1,30 @@
+{
+  "name": "@ohsooolucky/secyur-poller",
+  "version": "0.0.1",
+  "description": "A cron-style domain status poller",
+  "main": "standalone.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "email": "lucky@wheezie.be",
+    "name": "ohsooolucky",
+    "url": "https://dev.wheezie.be"
+  },
+  "repository": {
+    "directory": "packages/secyur-poller",
+    "type": "git",
+    "url": "git+https://github.com/ohsooolucky/secyur.git"
+  },
+  "license": "GPLV3",
+  "type": "module",
+  "dependencies": {
+    "@ohsooolucky/secyur-core": "workspace:*",
+    "@ohsooolucky/secyur-db-postgres": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.3",
+    "@types/pino": "^7.0.5"
+  }
+}
