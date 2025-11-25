@@ -1,0 +1,28 @@
+{
+  "name": "@ohsooolucky/secyur-mta-sts",
+  "version": "0.0.1",
+  "description": "Dynamic single instance to host all mta-sts files for your domains",
+  "main": "index.ts",
+  "scripts": {
+    "build": "bun build --target=bun --outdir=dist --minify index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "email": "lucky@wheezie.be",
+    "name": "ohsooolucky",
+    "url": "https://dev.wheezie.be"
+  },
+  "repository": {
+    "directory": "packages/secyur-poller",
+    "type": "git",
+    "url": "git+https://github.com/ohsooolucky/secyur.git"
+  },
+  "license": "GPLV3",
+  "type": "module",
+  "dependencies": {
+    "@ohsooolucky/secyur-core": "workspace:*",
+    "@ohsooolucky/secyur-db-postgres": "workspace:^",
+    "fastify": "^5.6.2"
+  }
+}
